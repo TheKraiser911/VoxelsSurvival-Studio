@@ -1,0 +1,45 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheKraiser911 Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="modern-title">TheKraiser911 Studio</h1>
+        <p>¡Bienvenidos a mi página moderna!</p>
+    </header>
+    <main>
+        <h2>Publica tu contenido</h2>
+        <form id="content-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre">
+            
+            <label for="content">Comentario:</label>
+            <textarea id="content" name="content" placeholder="Escribe tu comentario"></textarea>
+            
+            <label for="file">Subir imagen/video/archivo:</label>
+            <input type="file" id="file" name="file" accept="image/*,video/*,.pdf,.docx">
+            
+            <label for="link">Enlace:</label>
+            <input type="url" id="link" name="link" placeholder="https://ejemplo.com">
+            
+            <button type="button" onclick="postContent()">Publicar</button>
+        </form>
+
+        <h3>Contenido publicado:</h3>
+        <ul id="content-list"></ul>
+
+        <button class="download-button" onclick="window.location.href='descargar.html'">
+            Descargar VoxelSurvival
+        </button>
+    </main>
+    <footer>
+        <p>© TheKraiser911 Studio 2025</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
