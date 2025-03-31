@@ -1,0 +1,109 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #2c2f33, #23272a);
+    color: white;
+}
+
+/* Encabezado */
+header {
+    background-color: #23272a;
+    padding: 20px;
+    text-align: center;
+}
+
+.modern-title {
+    font-size: 3rem;
+    color: #7289da;
+    text-shadow: 2px 2px 5px black;
+    margin: 0;
+}
+
+/* Sección principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    background: #40444b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    color: white;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+input, textarea {
+    background-color: #2c2f33;
+    color: white;
+}
+
+button {
+    background-color: #7289da;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5b6eae;
+}
+
+/* Botón de descarga */
+.download-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #7289da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #5b6eae;
+}
+
+/* Contenido publicado */
+#content-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#content-list li {
+    background: #2c2f33;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #23272a;
+    color: #99aab5;
+    padding: 10px;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
